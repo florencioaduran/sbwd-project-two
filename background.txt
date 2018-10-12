@@ -1,0 +1,31 @@
+With a relentless hunger for how things work, my curiosity has led me to the
+field of engineering. I have always been fascinated with how things work. My
+earliest memories were of me taking apart my toys to make Frankenstein versions
+of them and, more often than not, of me dissembling something and then crying
+afterwards after not remembering how to reassemble them again (RIP DYNEX VCR
+player).
+
+I believe that my passion for electronics started from a romanticism over
+robotics. I was so fascinated by the visuals of shows like Gundam, Transformers,
+and other 90's anime, from there I knew that I wanted to be at the fore front of
+innovation of technology. Once attending university, I changed my major. I was
+initally Biomedical Engineering because I thought I would be able to build
+prosthetics; however, I soon realized that I am just more interested in the
+assembly and power aspect of things so I changed my major to electrical
+engineering and have been happy ever since.
+
+My expectations for this class are pretty substantial. I feel like I'm the only
+non-experienced coder in this class. It feels like everyone in the class is
+either CS, CE, or ITM. As a result, I hope to get from this class is a new love
+for coding. I have taken some coding classes like Java and 68k, but I learned
+them with great difficulty. I hope I become fond of HTML and CSS. More
+importantly, I would like the know how to make a website. I know that there are
+tons of assist websites to make a website however they are pretty limited.
+
+After graduation I hope to someday work for a high-tech company that
+specializes in PCBs for laptops or cellphones. I would like to work at Exelon
+or ComEd. However, I would also be interested in Motorola have visited their HQ
+during a high school field trip. I've done well in my basic circuit analysis 
+classes, so I feel confident pursuing a job in the field that requires my basic
+circuit analysis skills. So far, I still haven't taken the last of my ECE
+classes so I'll find out soon what I prefer doing for the time to come.
