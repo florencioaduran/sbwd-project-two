@@ -61,9 +61,6 @@ table {
   }
 }
 html {
-  /*font-size:1.125em;*/
-  /*line hight: 1.222em*/
-  /**/
   font-family: Helvetica;
 }
 
@@ -85,7 +82,7 @@ p {
     border-width: 12px;
     font-size: 20px;
     font-family: Lucida;
-    text-align: center;
+    text-align: left;
     /*width: 700px;*/
     margin-top: 20px;
     margin-bottom: 20px;
