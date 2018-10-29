@@ -14,3 +14,8 @@ everytime I build a new camera, I learn something new about programing and visua
 processing. Furthermore, I learn how to make them more cost effective and tailored for each
 project.
 
+The first two photos are of the first camerea I've ever built and it lets my family see
+when packages arrive at the door. The third photo is of my second camera which had higher
+quality streaming and was water proof but was too difficult to modify into night vision.
+The last image is of my most recent camera which is can see at night and is water proof.
+The case was 3D printed using tinkercad!
