@@ -2,162 +2,226 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  background-color: #5CA2BC /*baby blue*/
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: " ";
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }/* At the top level of your code */
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   article {
     padding: 1rem 3rem;
   }
 }
 
 /* Nested within another conditional at-rule */
-@supports (display: flex) {
+/*@supports (display: flex) {
   @media screen and (min-width: 900px) {
     article {
       display: flex;
     }
   }
-}
+} */
 html {
   font-family: Helvetica, sans-serif, serif;
-}
-body {
-  background-color: #5CA2BC /*baby blue*/
-}
-.container h1
-{
-    max width: 265px;
-    height: 170px;
-    margin: 100px auto; */
-		margin: auto;
-    background: #5CA2BC; /*baby blue*/
-    position: relative;
+  font: normal 1rem/1.5;
 }
 p { /*paragraphs*/
-    border-style: solid;
-    border-color: #FFFFEE; /*off-white*/
-    background-color: #FFFFEE; /*off-white*/
-    border-width: 10px;
-    font-size: 20px;
-    font-family: Lucida, Times, sans-serif, serif;
-    text-align: left;
-		color: black;
-		/* margin: 10px auto 10px auto; */
-		margin-left: 10%;
-		margin-right: 10%;
-    overflow: auto;
+  border-style: solid;
+  border-color: #FFFFEE; /*off-white*/
+  background-color: #FFFFEE; /*off-white*/
+  border-width: 10px;
+  font-size: 1.25em;
+  font-family: Lucida, Times, sans-serif, serif;
+  text-align: left;
+  color: #464646;
+  /* margin: 10px auto 10px auto; */
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: auto;
 }
 h1 {/*FLORENCIO A. DURAN*/
-    border-style: solid;
-    border-color: #FFFFEE; /*off-white*/
-    background-color: #5CA2BC; /*baby blue*/
-    border-width: 10px;
-		font-size: 38px;
-		font-family: Lucida, Times, sans-serif, serif;
-    text-align: center;
-    color: #FFFFEE; /*off-white*/
-    font-weight: normal;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* margin-top: 20px; */
-    max-width: 265px;
-    overflow: auto;
-    align-items: center;
-    /* justify-content: center; */
-    /* margin-left: 0%; */
+  border-style: solid;
+  border-color: #FFFFEE; /*off-white*/
+  background-color: #5CA2BC; /*baby blue*/
+  border-width: 10px;
+  font-size: 2.25em;
+  font-family: Lucida, Times, sans-serif, serif;
+  text-align: center;
+  color: #FFFFEE; /*off-white*/
+  font-weight: normal;
+  padding-top: 2.25em;
+  padding-bottom: 2.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  /* margin-top: 20px; */
+  max-width: 5.5em;
+  overflow: auto;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
+.container h1 {
+  max width: 1em;
+  height: 2em;
+  margin: 1em auto;
+  background: #5CA2BC; /*baby blue*/
+}
 h2 {/*About Me & Projects*/
-		border-style: solid;
-		border-color: #5CA2BC; /*baby blue*/
-		background-color: #5CA2BC; /*baby blue*/
-		border-width: 10px;
-		color: #FFFFEE; /*off-white*/
-    font-weight: normal;
-    text-align: left;
-    font-size: 38px;
-		margin-left: 10%;
-    margin-right: 10%;
+  border-style: solid;
+  border-color: #5CA2BC; /*baby blue*/
+  background-color: #5CA2BC; /*baby blue*/
+  border-width: 10px;
+  color: #FFFFEE; /*off-white*/
+  font-weight: normal;
+  text-align: left;
+  font-size: 2.25em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 h3 {/*buttons*/
-    border-style: solid;
-    border-color: #FFFFEE; /*off-white*/
-    background-color: #FFFFEE; /*off-white*/
-    border-width: 12px;
-    /* margin: 10px auto 10px auto; */
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    overflow: auto;
-    text-align: center;
-}
-h4 {
-    text-align: center;
-}
-h5 {
-    text-align: center;
+  border-style: solid;
+  border-color: #FFFFEE; /*off-white*/
+  background-color: #FFFFEE; /*off-white*/
+  border-width: 12px;
+  /* margin: 10px auto 10px auto; */
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: auto;
 }
 img {
-	display:block;
-	max-width: 100%;
-    border-style: solid;
-    border-color: #FFFFEE; /*off-white*/
-    background-color: #FFFFEE; /*off-white*/
-    border-width: 10px;
-    overflow: auto;
+  display: block;
+  max-width: 100%;
+  border-style: solid;
+  border-color: #FFFFEE; /*off-white*/
+  background-color: #FFFFEE; /*off-white*/
+  border-width: 0;
+  overflow: auto;
 }
-#photoofme {
+#Photo-of-me {
 
 }
-
 .images {
-	display: flex;
+  display: flex;
 }
-.images li{
-	flex: 1 1 150px;
+.images li {
+  flex: 1 1 1em;
 }
